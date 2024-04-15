@@ -1,6 +1,3 @@
-# USAGE
-# python ocr_handwriting.py --model handwriting.model --image images/umbc_address.png
-
 from tensorflow.keras.models import load_model
 from imutils.contours import sort_contours
 import numpy as np
